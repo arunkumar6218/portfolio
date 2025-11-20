@@ -8,7 +8,7 @@ const PROJECTS = [
     desc: 'The Smart Timetable Generator is a Python-based project that automatically creates optimized class timetables using data from Excel files. It reads input details like subjects, teachers, and time slots, then generates a conflict-free schedule as an Excel output.',
     ss: '/Time Table Generator.jpg',
     tech: ['Python', 'Pandas', 'Excel', 'HTML/CSS'],
-    live: '#',
+    live: '*',
     code: 'https://github.com/arunkumar6218/Smart-time-table-generator'
   },
   {
@@ -16,7 +16,7 @@ const PROJECTS = [
   desc: 'The To-Do List is a Python-based project that helps users manage daily tasks efficiently. It allows adding, updating, and deleting tasks, with all data stored and displayed in a simple, organized format. This project makes task tracking easier and boosts productivity.',
   ss: '/To-Do List.jpg',
   tech: ['HTML5', 'CSS3', 'JavaScript', 'Codepen'],
-  live: '#',
+  live: '*',
   code: 'https://github.com/arunkumar6218/To-Do-List'
   },
   {
@@ -24,7 +24,7 @@ const PROJECTS = [
     desc: 'The Tic Tac Toe project is a Python-based game where two players take turns marking Xs and Os on a 3x3 grid. The program checks for wins, draws, and valid moves automatically. It’s a simple yet fun project that demonstrates basic logic and game development concepts.',
     ss: '/Tic Tac Toe1.jpg',
     tech: ['JavaScript', 'HTML5', 'CSS3', 'Codepen'],
-    live: '#',
+    live: '*',
     code: 'https://github.com/arunkumar6218/Tic-Tac-Toe-web-'
   },
   {
