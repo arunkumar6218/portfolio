@@ -4,7 +4,7 @@ export default function NotFound(){
     <section className="container">
       <div className="card">
         <h2>404 — Not Found</h2>
-        <p className="lead">The page you requested does not exist.</p>
+        <p className="lead">The page you requested, not able to connect at the moment.</p>
       </div>
     </section>
   )
