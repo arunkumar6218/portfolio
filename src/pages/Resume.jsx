@@ -126,6 +126,56 @@ export default function Resume() {
           </ul>
         </motion.div>
 
+        {/* Experience Section */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.7 }}
+  style={{
+    marginTop: 40,
+    border: "1px solid rgba(255,255,255,0.1)",
+    borderRadius: 12,
+    padding: "20px 24px",
+    background: "rgba(255,255,255,0.03)",
+  }}
+>
+  <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>
+    💼 Experience
+  </h4>
+
+  <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
+    {/* Experience 1 */}
+    <li style={{ marginBottom: 20 }}>
+      <div style={{ fontSize: 16, fontWeight: 600, color: "#e5e5e5" }}>
+        Full Stack Developer - Intern [Ether Services]
+      </div>
+      <div style={{ color: "#aaa", fontSize: 14 }}>
+        Coimbatore, Tamil Nadu ( June 2025 - November 2025 )
+      </div>
+      <p style={{ color: "#ccc", marginTop: 6, fontSize: 14 }}>
+        Developed end-to-end web features using Python and front-end technologies.
+        Created APIs, connected databases, and built interactive user interfaces.
+        Worked on debugging, testing, and improving the overall user experience.
+      </p>
+    </li>
+
+    {/* Experience 2 */}
+    <li style={{ marginBottom: 20 }}>
+      <div style={{ fontSize: 16, fontWeight: 600, color: "#e5e5e5" }}>
+        Front-End Developer - Intern [Cognifyz Technologies]
+      </div>
+      <div style={{ color: "#aaa", fontSize: 14 }}>
+        Remote ( August 2025 - September 2025 )
+      </div>
+      <p style={{ color: "#ccc", marginTop: 6, fontSize: 14 }}>
+       Built responsive UI screens using HTML, CSS, JavaScript, and React. 
+       Developed reusable components, optimized performance, and ensured a smooth user experience across devices.
+      </p>
+    </li>
+  </ul>
+</motion.div>
+
+
         {/* Projects */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
