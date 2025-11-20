@@ -7,6 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const links = [
   { label: "Home", to: "/" },
   { label: "Projects", to: "/projects" },
+  { label: "Experience", to: "/experience" },
   { label: "Skills", to: "/skills" },
   { label: "Certifications", to: "/certificates" },
   { label: "Resume", to: "/resume" },
