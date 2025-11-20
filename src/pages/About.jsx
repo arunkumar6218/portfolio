@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaUniversity, FaSchool, FaGraduationCap } from "react-icons/fa";
+import { FaUniversity, FaSchool, FaGraduationCap, FaBriefcase } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
@@ -167,7 +167,7 @@ const AboutMe = () => {
                 gap: "1.2rem",
               }}
             >
-              <FaGraduationCap size={38} color="var(--accent)" />
+              <FaSchool size={38} color="var(--accent)" />
               <div>
                 <h4
                   style={{
@@ -237,6 +237,137 @@ const AboutMe = () => {
               </div>
             </motion.div>
           </div>
+
+          {/* --- Experience Section --- */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 1.0, duration: 0.8 }}
+  style={{ marginTop: "3rem" }}
+>
+  <h3
+    style={{
+      fontSize: "1.6rem",
+      marginBottom: "1.5rem",
+      background: "linear-gradient(90deg, var(--accent), var(--accent-2))",
+      WebkitBackgroundClip: "text",
+      color: "transparent",
+    }}
+  >
+    Experience
+  </h3>
+
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      gap: "1.2rem",
+    }}
+  >
+    {/* --- Experience Card 1 --- */}
+    <motion.div
+      whileHover={{
+        scale: 1.02,
+        boxShadow: "0 0 25px rgba(0,255,200,0.15)",
+      }}
+      transition={{ duration: 0.3 }}
+      style={{
+        background: "rgba(255,255,255,0.05)",
+        borderRadius: "14px",
+        padding: "1.5rem 2rem",
+        border: "1px solid rgba(255,255,255,0.08)",
+        boxShadow: "0 0 15px rgba(0,255,200,0.05)",
+        display: "flex",
+        alignItems: "center",
+        gap: "1.2rem",
+      }}
+    >
+      <FaBriefcase size={38} color="var(--accent)" />
+      <div>
+        <h4
+          style={{
+            color: "var(--accent)",
+            marginBottom: "0.4rem",
+            fontSize: "1.25rem",
+          }}
+        >
+          Full Stack Developer - Intern
+        </h4>
+
+        <p
+          style={{
+            color: "rgba(255,255,255,0.85)",
+            marginBottom: "0.2rem",
+          }}
+        >
+          <strong>Ether Services</strong> - Coimbatore, Tamil Nadu
+        </p>
+
+        <p style={{ color: "rgba(255,255,255,0.75)", marginBottom: "0.2rem" }}>
+          June 2025 - November 2025
+        </p>
+
+        <p style={{ color: "rgba(255,255,255,0.7)" }}>
+           • Developed and maintained responsive web pages using HTML, CSS, Bootstrap, JavaScript, and React.js.<br/>
+           • Integrated Python, MongoDB and SQL for backend development and database management.<br/>
+           • Gained practical experience in Ai-integreted full-stack web application workflow and problem-solving.<br/>
+        </p>
+      </div>
+    </motion.div>
+
+    {/* --- Experience Card 2 --- */}
+    <motion.div
+      whileHover={{
+        scale: 1.02,
+        boxShadow: "0 0 25px rgba(0,255,200,0.15)",
+      }}
+      transition={{ duration: 0.3 }}
+      style={{
+        background: "rgba(255,255,255,0.05)",
+        borderRadius: "14px",
+        padding: "1.5rem 2rem",
+        border: "1px solid rgba(255,255,255,0.08)",
+        boxShadow: "0 0 15px rgba(0,255,200,0.05)",
+        display: "flex",
+        alignItems: "center",
+        gap: "1.2rem",
+      }}
+    >
+      <FaBriefcase size={38} color="var(--accent)" />
+      <div>
+        <h4
+          style={{
+            color: "var(--accent)",
+            marginBottom: "0.4rem",
+            fontSize: "1.25rem",
+          }}
+        >
+          Front-End Developer - Intern
+        </h4>
+
+        <p
+          style={{
+            color: "rgba(255,255,255,0.85)",
+            marginBottom: "0.2rem",
+          }}
+        >
+          <strong>Cognifyz Technologies</strong> – Remote
+        </p>
+
+        <p style={{ color: "rgba(255,255,255,0.75)", marginBottom: "0.2rem" }}>
+          August 2025 - September 2025
+        </p>
+
+        <p style={{ color: "rgba(255,255,255,0.7)" }}>
+          • Created and styled interactive web pages using HTML, CSS, and Bootstrap, Sass.<br/>
+          • Completed assigned frontend tasks according to company standards and deadlines.<br/>
+          • Improved understanding of UI/UX design and project structure in a corporate environment.<br/>
+        </p>
+      </div>
+    </motion.div>
+  </div>
+</motion.div>
+
         </motion.div>
       </motion.div>
     </div>
